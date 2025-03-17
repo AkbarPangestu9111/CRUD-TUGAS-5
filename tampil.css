@@ -1,0 +1,35 @@
+.nav {
+    background-color: rgb(49, 47, 47);
+    -webkit-text-fill-color: rgb(12, 192, 247);
+   
+   text-decoration: none;
+ 
+}
+.navi {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navi li{
+    display: inline-block;
+}
+.navi a {
+    color:aqua;
+}
+.dm h2{
+    text-align: center;
+   
+}
+.read{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+body{
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+}

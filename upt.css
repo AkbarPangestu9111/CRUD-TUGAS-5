@@ -1,0 +1,90 @@
+/* Gaya umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradien ungu ke biru */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container untuk form */
+.upd {
+    background-color: rgba(255, 255, 255, 0.9); /* Latar belakang semi-transparan */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+}
+
+/* Judul form */
+.upd h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Gaya untuk form input */
+.fupm {
+    display: flex;
+    flex-direction: column;
+}
+
+.fupm label {
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+    text-align: left;
+}
+
+.fupm select,
+.fupm input[type="text"] {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.fupm select:focus,
+.fupm input[type="text"]:focus {
+    border-color: #6a11cb;
+    outline: none;
+}
+
+/* Gaya untuk tombol submit */
+.fupm input[type="submit"] {
+    background-color: #6a11cb;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.fupm input[type="submit"]:hover {
+    background-color: #2575fc;
+}
+
+/* Gaya untuk tautan "Cek Data" */
+.fupm a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.fupm a:hover {
+    color: #2575fc;
+}
